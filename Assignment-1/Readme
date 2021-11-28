@@ -1,1 +1,18 @@
 
+Data Collection: For obtaining a variety of data, we had collected data from more than one
+email ID’s including the personal and Bits mail id. We have used Subject, Body and sender
+as three of the mail for classification into labels. We had chosen six labels to distribute the
+collected data. Steps followed for data collection are as follows
+Step1 - Created six labels in gmail labels.
+Step2 - Classified mails under the selected labels manually
+Step3 - Created python code to extract subject, body, sender’s address into a CSV file from
+the mails.
+Step4 - We used Gmail API to access the emails and extracted it by using a python script.
+Data Cleaning:
+We cleaned data at several layers
+1) Removed html tags
+2) Removed emojis
+3) Removed characters excluding A-Z and 1-9
+4) Lemmatized text of the mails
+5) Removed stop words and converted everything to lower case.
+Exploratory Data
